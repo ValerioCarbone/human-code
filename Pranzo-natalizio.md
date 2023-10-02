@@ -10,11 +10,10 @@
     - ALTRIMENTI
         - l'ultimo numero contato equivale al totale
 - ## Confrontare i posti con i partecipanti
-    - Confronta il totale dei partecipanti al totale delle sedie
-- ## Aggiungere eventuali posti mancanti
-    - SE i totali sono equivalenti
-        - ALLORA tutti hanno un posto a tavola
-    - ALTRIMENTI
-        - SE il totale dei partecipanti è maggiore del totale delle sedie
-            - ALLORA aggiungi una sedia
-        - ALTRIMENTI togli una sedia
+    - Confronta il totale dei partecipanti al totale delle sedie:
+        - SE i totali sono equivalenti
+            - ALLORA tutti hanno un posto a tavola
+        - ALTRIMENTI
+            - SE il totale dei partecipanti è maggiore del totale delle sedie
+                - ALLORA aggiungi una sedia
+            - ALTRIMENTI togli una sedia
